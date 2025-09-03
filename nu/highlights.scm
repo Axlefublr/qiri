@@ -376,9 +376,7 @@ key: (identifier) @property
     ">"
   ] @punctuation.bracket)
 
-(shebang) @keyword.directive
-
-(comment) @comment
+[(comment) (shebang)] @comment
 
 ((comment)+ @comment.documentation @spell
   .
