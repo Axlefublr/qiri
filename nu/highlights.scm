@@ -380,11 +380,11 @@ key: (identifier) @property
   (comment) @comment.documentation)
 
 (command
-  head: ((cmd_identifier) @_cmd
-    (#match? @_cmd "^\\s*(find|parse|split|str)$"))
+  head: ((cmd_identifier) @function.builtin
+    (#match? @function.builtin "^\\s*(find|parse|split|str)$"))
   flag: (_
-    name: (_) @_flag
-    (#any-of? @_flag "r" "regex"))
+    name: (_) @attribute
+    (#any-of? @attribute "r" "regex"))
   .
   arg: (_
     (string_content) @string.regexp))
@@ -400,11 +400,11 @@ key: (identifier) @property
     (string_content) @string.regexp))
 
 (command
-  head: ((_) @_cmd
-    (#any-of? @_cmd "nu" "$nu.current-exe"))
+  head: ((_) @function
+    (#any-of? @function "nu" "$nu.current-exe"))
   flag: (_
-    name: (_) @_flag
-    (#any-of? @_flag "c" "e" "commands" "execute"))
+    name: (_) @attribute
+    (#any-of? @attribute "c" "e" "commands" "execute"))
   .
   arg: (_
     (string_content) @string.code))
