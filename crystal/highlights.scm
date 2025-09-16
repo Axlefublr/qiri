@@ -3,6 +3,7 @@
   ";"
   "."
   ":"
+  "::"
   "*"
   "**"
 ] @punctuation.delimiter
