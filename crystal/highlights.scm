@@ -279,7 +279,7 @@
     (#match? @keyword "^(record|is_a\\?|as|as\\?|responds_to\\?|nil\\?|\\!)$"))
 
 (call
-  method: (_) @function.method)
+  method: (identifier) @function.method)
 
 (implicit_object_call
   method: (_) @function.method)
