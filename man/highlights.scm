@@ -4,8 +4,8 @@
 
 (subsection_title) @markup.heading.3
 
-(option) @variable.parameter
+(option) @attribute
 
 (reference) @markup.link.label
 
-(footer) @markup.heading
+(footer) @markup.heading.6
