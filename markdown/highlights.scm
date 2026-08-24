@@ -9,6 +9,13 @@
 (atx_heading (atx_h5_marker) @markup.heading.marker) @markup.heading.5
 (atx_heading (atx_h6_marker) @markup.heading.marker) @markup.heading.6
 
+(bar_h1_marker) @markup.heading.1
+(bar_h2_marker) @markup.heading.2
+(bar_h3_marker) @markup.heading.3
+(bar_h4_marker) @markup.heading.4
+(bar_h5_marker) @markup.heading.5
+(bar_h6_marker) @markup.heading.6
+
 [
   (indented_code_block)
   (fenced_code_block)
