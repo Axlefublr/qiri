@@ -88,3 +88,13 @@
   (_) @entry.inside) @entry.around
 
 (shorthand_field_initializer) @entry.around
+
+(let_condition
+  pattern: (_) @entry.inside
+  value: (_)
+) @entry.around
+
+(let_condition
+  pattern: (_)
+  value: (_) @entry.inside
+) @entry.around
