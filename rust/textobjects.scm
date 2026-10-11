@@ -65,6 +65,10 @@
    body: (_) @test.inside) @test.around
  (#eq? @_test_attribute "test"))
 
+(if_expression
+  condition: (_) @test.around
+)
+
 (array_expression
   (_) @entry.around)
 
