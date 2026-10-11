@@ -41,15 +41,6 @@
 (field_initializer_list
   ((_) @parameter.inside . ","? @parameter.around) @parameter.around)
 
-[
-  (line_comment)
-  (block_comment)
-] @comment.inside
-
-(line_comment)+ @comment.around
-
-(block_comment) @comment.around
-
 (; #[test]
  (attribute_item
    (attribute
