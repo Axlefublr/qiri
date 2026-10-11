@@ -41,6 +41,12 @@
 (field_initializer_list
   ((_) @parameter.inside . ","? @parameter.around) @parameter.around)
 
+(function_item
+  "->" @comment.around
+  .
+  return_type: (_) @comment.around @comment.inside
+)
+
 (; #[test]
  (attribute_item
    (attribute
