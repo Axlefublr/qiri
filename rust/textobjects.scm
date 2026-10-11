@@ -23,7 +23,7 @@
 (impl_item
   body: (_) @class.inside) @class.around
 
-(parameters 
+(parameters
   ((_) @parameter.inside . ","? @parameter.around) @parameter.around)
 
 (type_parameters
@@ -38,7 +38,7 @@
 (arguments
   ((_) @parameter.inside . ","? @parameter.around) @parameter.around)
 
-(field_initializer_list  
+(field_initializer_list
   ((_) @parameter.inside . ","? @parameter.around) @parameter.around)
 
 [
