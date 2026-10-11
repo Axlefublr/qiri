@@ -99,3 +99,13 @@
   pattern: (_)
   value: (_) @entry.inside
 ) @entry.around
+
+(match_arm
+  pattern: (_) @entry.inside @entry.around
+  value: (_) @entry.around
+)
+
+(match_arm
+  pattern: (_) @entry.around
+  value: (_) @entry.inside @entry.around
+)
