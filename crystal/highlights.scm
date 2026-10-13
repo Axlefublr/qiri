@@ -296,4 +296,4 @@
   "|" @operator)
 
 (annotation
-  (constant) @attribute)
+  (constant) @keyword.directive)
