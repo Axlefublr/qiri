@@ -287,6 +287,8 @@
   (generic_type)
 ] @type
 
+(constant "::" @punctuation.delimiter)
+
 (nilable_constant
   "?" @type)
 
