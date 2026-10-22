@@ -90,6 +90,8 @@
 
 (pseudo_constant) @constant.builtin
 
+(global_var "$" @constant)
+
 ; literals
 (char
   ["'" (literal_content)] @string)
