@@ -291,10 +291,10 @@
 (constant "::" @punctuation.delimiter)
 
 (nilable_constant
-  "?" @type)
+  "?" @type.nullable)
 
 (nilable_type
-  "?" @type)
+  "?" @type.nullable)
 
 (union_type
   "|" @operator)
