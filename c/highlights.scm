@@ -106,8 +106,8 @@
 
 (conditional_expression ":" @operator) ; After punctuation
 
-(pointer_declarator "*" @type.builtin) ; After Operators
-(abstract_pointer_declarator "*" @type.builtin)
+(pointer_declarator "*" @keyword.operator) ; After Operators
+(abstract_pointer_declarator "*" @keyword.operator)
 
 
 [(true) (false)] @constant.builtin.boolean
