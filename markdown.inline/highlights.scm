@@ -37,3 +37,4 @@
 (inline_link ["[" "]" "(" ")"] @punctuation.bracket)
 (shortcut_link ["[" "]"] @punctuation.bracket)
 (required_argument) @variable.parameter.required
+(argument_type) @type
