@@ -38,4 +38,5 @@
 (shortcut_link ["[" "]"] @punctuation.bracket)
 (required_argument) @variable.parameter.required
 (argument_type) @type
+((argument_type) @type . "?" @type.nullable)
 (semantic_operator) @markup.operator
