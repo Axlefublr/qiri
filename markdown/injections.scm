@@ -12,7 +12,7 @@
 ((html_block) @injection.content
  (#set! injection.language "html")
  (#set! injection.include-unnamed-children)
- (#set! injection.combined))
+)
 
 ((pipe_table_cell) @injection.content (#set! injection.language "markdown.inline") (#set! injection.include-unnamed-children))
 
