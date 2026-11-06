@@ -1,0 +1,1 @@
+/home/axlefublr/fes/ork/tree-sitter-gee/queries/helix/highlights.scm
