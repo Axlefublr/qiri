@@ -155,26 +155,26 @@
 
 (comment) @comment
 
-(
-  (comment)+ @comment.block.documentation
-  .
-  [
-    (class_def)
-    (struct_def)
-    (method_def)
-    (abstract_method_def)
-    (macro_def)
-    (module_def)
-    (enum_def)
-    (annotation_def)
-    (lib_def)
-    (type_def)
-    (c_struct_def)
-    (union_def)
-    (alias)
-    (const_assign)
-  ]
-)
+; (
+;   (comment)+ @comment.block.documentation
+;   .
+;   [
+;     (class_def)
+;     (struct_def)
+;     (method_def)
+;     (abstract_method_def)
+;     (macro_def)
+;     (module_def)
+;     (enum_def)
+;     (annotation_def)
+;     (lib_def)
+;     (type_def)
+;     (c_struct_def)
+;     (union_def)
+;     (alias)
+;     (const_assign)
+;   ]
+; )
 
 (identifier) @variable
 (param name: (identifier) @variable.parameter)
