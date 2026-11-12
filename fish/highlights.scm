@@ -140,6 +140,8 @@
 [(double_quote_string) (single_quote_string)] @string
 (escape_sequence) @constant.character.escape
 
+(command_substitution) @source
+
 ;; Variables
 
 (variable_name) @variable
